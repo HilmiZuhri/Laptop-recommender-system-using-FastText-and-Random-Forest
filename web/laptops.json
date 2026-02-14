@@ -1,0 +1,177 @@
+[
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/o3syd0/1997/1/1/0ab3d781ce774d99adfedefa256adf29~.jpeg",
+        "nama_laptop": "Lenovo Thinkpad X1 Carbon Gen 13 Aura Edition", "kategori": "Workstation",
+        "cpu": "Intel Ultra 7 268V with NPU", "gpu": "Integrated Intel Arc Graphics 140V",
+        "ram": "32 GB LPDDR5x-8533", "storage": "1 TB SSD M.2 2280 PCIe 4.0x4",
+        "layar": "14 inch WUXGA (1920x1200) IPS 500nits Anti-glare, 100% sRGB, 60Hz", "harga": 430000000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/2/13/24afff67-7411-4dc7-abba-09718be32d97.jpg",
+        "nama_laptop": "ASUS ROG Strix G16", "kategori": "Gaming",
+        "cpu": "Intel Ultra 9 275HX with NPU", "gpu": "NVIDIA GEFORCE RTX 5060",
+        "ram": "32 GB LPDDR5x-8533", "storage": "1 TB SSD M.2 2280 PCIe 4.0x4",
+        "layar": "16 inch 2.5K 500nits IPS level 100% DCI-P3 Pantone Validated", "harga": 36749000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/aphluv/1997/1/1/6fe91dbb465548189458c7a61b0f00f1~.jpeg",
+        "nama_laptop": "ASUS Zenbook S14 OLED", "kategori": "Programming",
+        "cpu": "Intel Ultra 7 258V with NPU", "gpu": "Integrated Intel Arc Graphics 140V",
+        "ram": "32 GB LPDDR5x-8533", "storage": "1 TB SSD M.2 2280 PCIe 4.0x4",
+        "layar": "14 inch 3K IPS 400nits glossy, 100% DCI-P3 Pantone Validated, 60Hz", "harga": 26749000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/aphluv/1997/1/1/66952a0e91ff410486de529f9b462a72~.jpeg",
+        "nama_laptop": "ASUS Vivobook S14", "kategori": "Programming",
+        "cpu": "Intel Ultra 7 255H with NPU", "gpu": "Integrated Intel UHD Graphics",
+        "ram": "16 GB DDR5", "storage": "1 TB SSD M.2 2280 PCIe 4.0x4",
+        "layar": "14 inch WUXGA (1920x1200) IPS level 300nits Anti-glare, 45% NTSC", "harga": 14889000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/aphluv/1997/1/1/886c6f6638ae4939b6e4da2c51072387~.jpeg",
+        "nama_laptop": "Lenovo Legion Pro 7i", "kategori": "Gaming",
+        "cpu": "Intel Ultra 9 275HX with NPU", "gpu": "NVIDIA GEFORCE RTX 5090 24GB",
+        "ram": "32 GB DDR5 6400", "storage": "1 TB SSD M.2 2280 PCIe 4.0x4",
+        "layar": "16 inch WQXGA 500nits OLED 100% DCI-P3 Glossy Display HDR True Black", "harga": 74500000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/aphluv/1997/1/1/10e58459bf0a4d339299095111e9a5e2~.jpeg",
+        "nama_laptop": "Lenovo Yoga Slim 9", "kategori": "Programming",
+        "cpu": "Intel Ultra 7 258V with NPU", "gpu": "Integrated Intel Arc Graphics 140V",
+        "ram": "32 GB LPDDR5x-8533", "storage": "1 TB SSD M.2 2242 PCIe 4.0x4",
+        "layar": "14 inch 4K OLED 600nits glossy, 100% DCI-P3 PureSight Pro, 120Hz", "harga": 31099000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/3/24/6fc68008-dcbc-4ad7-b8c5-ced488a65e4e.jpg",
+        "nama_laptop": "MSI Titan 18 HX Dragon Edition Norse Myth", "kategori": "Gaming",
+        "cpu": "Intel Ultra 9 285HX with NPU", "gpu": "NVIDIA GEFORCE RTX 5090 24GB",
+        "ram": "96 GB DDR5 6400", "storage": "1 TB SSD M.2 2280 PCIe 4.0x4, 1x M.2 2280 PCIe 5.0x4",
+        "layar": "18 inch UHD+ MiniLED 600nits glossy, 100% DCI-P3 PureSight Pro, 120Hz", "harga": 104999000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/aphluv/1997/1/1/bf66b018930f4461b6838163f0db75c0~.jpeg",
+        "nama_laptop": "MSI Prestige 16 AI+", "kategori": "Programming",
+        "cpu": "Intel Ultra 9 288V with NPU", "gpu": "Integrated Intel Arc Graphics 140V",
+        "ram": "32 GB LPDDR5x-8533", "storage":"1 TB SSD M.2 2280 PCIe 4.0x4",
+        "layar": "16 inch UHD+ 500nits OLED 100% DCI-P3 Pantone Validated", "harga": 29999000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/aphluv/1997/1/1/9c8cd0d782234105ba0ceec712334461~.jpeg",
+        "nama_laptop":"MSI Katana 15 HX", "kategori": "Gaming",
+        "cpu": "Intel Core I9-14900HX", "gpu": "NVIDIA GEFORCE RTX 5070 8GB",
+        "ram": "64 GB DDR5 6400", "storage": "512 TB SSD M.2 2280 PCIe 4.0x4",
+        "layar": "15.6 inch QHD 165Hz DCI-P3 100% sRGB", "harga": 31859000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/o3syd0/1997/1/1/4d67433be7504d37a0c3bd197749eb75~.jpeg",
+        "nama_laptop": "Acer Predator Helios NEO 16S", "kategori": "Gaming",
+        "cpu": "Intel Ultra 9 275HX with NPU", "gpu": "NVIDIA GEFORCE RTX 5060 8GB",
+        "ram": "32 GB DDR5 5600", "storage": "1 TB SSD M.2 2280 PCIe 4.0x4",
+        "layar":"16 inch WQXGA 500nits OLED 100% DCI-P3 240Hz", "harga": 33299000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/aphluv/1997/1/1/b6dff216965e41ea98058aa21f134ff6~.jpeg",
+        "nama_laptop": "Acer Swift X14 AI", "kategori": "Multimedia",
+        "cpu": "Intel Ultra 7 155H with NPU", "gpu": "NVIDIA GEFORCE RTX 4060 8GB",
+        "ram": "32 GB LPDDR5x-8533", "storage": "1 TB SSD M.2 2280 PCIe 4.0x4",
+        "layar": "14 inch 2.8K OLED, 100% DCI-P3, 120Hz", "harga": 25349000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/aphluv/1997/1/1/cec8d5958c9645db8edeb3ced2abaa8e~.jpeg",
+        "nama_laptop": "Acer Swift GO 14 AI", "kategori": "Programming",
+        "cpu": "Intel Ultra 9 185H with NPU", "gpu": "Integrated Intel Arc Graphics 140V",
+        "ram": "32 GB LPDDR5x-8533", "storage": "1 TB SSD M.2 2280 PCIe 4.0x4",
+        "layar": "14 inch 2.8K OLED, 500nits 100% DCI-P3, VesaHDR 500 90Hz", "harga": 18849000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/VqbcmM/2023/5/6/6285c027-0518-4c7c-8dd8-89dce82aebf8.jpg",
+        "nama_laptop": "ASUS ProArt StudioBook 16 OLED", "kategori": "Workstation",
+        "cpu": "Intel Core I9-13980HX", "gpu": "NVIDIA GEFORCE RTX 4070 8GB",
+        "ram": "32 GB DDR5 6400", "storage": "4 TB SSD M.2 2280 PCIe 4.0x4",
+        "layar": "16 inch 3.2K 550nits OLED 100% DCI-P3 Pantone Validated, Glossy", "harga": 93500000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/9/18/3ad6ff21-31c3-47c2-81a3-395d602cd5b2.jpg",
+        "nama_laptop": "HP Zbook Power 16 Gen 11", "kategori": "Workstation",
+        "cpu": "AMD Ryzen Pro 7 8845HS", "gpu": "NVIDIA GEFORCE RTX A1000 6GB",
+        "ram": "32 GB DDR5 5600", "storage": "512 GB SSD M.2 2280 PCIe 4.0x4",
+        "layar": "16 inch WUXGA Touch Display", "harga": 59200000 
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/aphluv/1997/1/1/60d35bce6c724dabaaca7168b0b09c19~.jpeg",
+        "nama_laptop": "Lenovo Thinkpad P16 Gen 2", "kategori": "Workstation",
+        "cpu": "Intel Core I9-13950HX", "gpu": "NVIDIA RTX 3500 12GB ECC",
+        "ram": "32 GB DDR5 5600 ECC", "storage": "1 TB SSD M.2 2242 PCIe 4.0x4",
+        "layar": "16 inch WQXGA 500nits IPS 100% sRGB Anti Glare,  Eyesafe", "harga": 58999000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/o3syd0/1997/1/1/40339598a6a14157b99921a62139ab16~.jpeg",
+        "nama_laptop": "Lenovo Thinkpad P16v Gen 2", "kategori": "Workstation",
+        "cpu": "Intel Ultra 9 185H with NPU", "gpu":"NVIDIA GEFORCE RTX 3000 8GB",
+        "ram": "32 GB DDR5 5600", "storage":"1 TB SSD M.2 2280 PCIe 4.0x4",
+        "layar": "16 inch WUXGA IPS 300nits Anti-glare", "harga": 52399000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/aphluv/1997/1/1/958be5c9926447b382bee025ccd8ab7f~.jpeg",
+        "nama_laptop": "Zyrex D-Tech Pro", "kategori": "Office",
+        "cpu": "AMD Ryzen 5 6600H", "gpu": "Integrated AMD Radeon 550M",
+        "ram": "16 GB LPDDR5 6400", "storage": "512 GB SSD M.2 2280 PCIe 4.0x4",
+        "layar": "14 inch FullHD IPS, Anti glare, 60Hz", "harga": 6499000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/12/5/83b17759-8b6d-4af9-82f3-697a76c25c7a.jpg",
+        "nama_laptop": "Acer Aspire Lite 14", "kategori": "Office",
+        "cpu": "Intel I5-1334U", "gpu": "Integrated Intel UHD Graphics",
+        "ram": "16 GB DDR5", "storage": "512 GB SSD M.2 2280 PCIe 4.0x4",
+        "layar": "14 inch WUXGA IPS, Anti glare, 60Hz", "harga": 8149000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/aphluv/1997/1/1/085a34990c8a406b991667ffba925448~.jpeg",
+        "nama_laptop": "Advan 360 Stylus Pro", "kategori": "Office",
+        "cpu": "AMD Ryzen 5 7430U", "gpu": "Integrated AMD Radeon Graphics",
+        "ram": "8 GB DDR4 3200", "storage": "512 GB SSD M.2 2280 PCIe 3.0x4",
+        "layar": "14 inch FullHD IPS, Touchscreen, 60Hz", "harga": 6999000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/aphluv/1997/1/1/2e904e6e9d914099969c5f4b777df196~.jpeg",
+        "nama_laptop": "Advan Workplus Heritage", "kategori": "Office",
+        "cpu": "AMD Ryzen 5 7535HS", "gpu": "Integrated AMD Radeon Graphics 680M",
+        "ram": "16 GB DDR5", "storage": "1 TB SSD M.2 2280 PCIe 4.0x4",
+        "layar": "14 inch WUXGA IPS 16:10 45% NTSC", "harga": 7499000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/aphluv/1997/1/1/81a1d7b812ec4ce09ba0ceba0bc31b20~.jpeg",
+        "nama_laptop": "ASUS Expertbook P1", "kategori": "Office",
+        "cpu": "AMD Ryzen 5 7535HS", "gpu": "Integrated AMD Radeon Graphics",
+        "ram": "32 GB DDR5", "storage": "1 TB SSD M.2 2280 PCIe 4.0x4",
+        "layar": "14 inch FullHD 16:9 300nits, Anti-glare, NTSC 45%", "harga": 9099000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/3/6/6828fbf4-a10b-4684-9af2-5b0a1d710806.jpg",
+        "nama_laptop": "ASUS Zenbook S14 Flip", "kategori": "Multimedia",
+        "cpu": "Intel Ultra 5 226V with NPU", "gpu": "Integrated Intel Arc Graphics 140V",
+        "ram": "16 GB LPDDR5X on board", "storage": "512 GB SSD M.2 2280 PCIe 4.0x4",
+        "layar": "14 inch FullHD 16:10 400nits, Glossy, 100% DCI-P3 60Hz", "harga": 15849000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/aphluv/1997/1/1/c190d0a635ec4f319883765b4e603541~.jpeg",
+        "nama_laptop": "Lenovo Thinkpad X13 2-in-1 Gen 5", "kategori": "Multimedia",
+        "cpu": "Intel Ultra 7 165U with NPU", "gpu": "Integrated Intel UHD Graphics",
+        "ram": "32 GB LPDDR5X-6400 on board", "storage": "1 TB SSD M.2 2280 PCIe 4.0x4",
+        "layar": "13.3 inch WUXGA IPS 400nits Anti-glare, 100% sRGB Low Power, Touchscreen", "harga": 30999000
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/3/13/c075578e-710f-46c4-987a-541170bbed2d.jpg",
+        "nama_laptop": "Lenovo Yoga 9i 2-in-1", "kategori": "Multimedia",
+        "cpu": "Intel Ultra 7 258V with NPU", "gpu": "Integrated Intel Arc Graphics 140V",
+        "ram": "32 GB LPDDR5x-8533", "storage": "1 TB SSD M.2 2242 PCIe 4.0x4",
+        "layar": "14 inch 4K OLED 600nits glossy, 100% DCI-P3 Eyesafe, Dolby Vision, DisplayHDR True Black 500, Touchscreen, 60Hz", "harga": "29999000"
+    },
+    {
+        "gambar": "https://images.tokopedia.net/img/cache/700/VqbcmM/2025/4/9/a4123b9b-c37b-4235-affa-9305da4c2636.jpg",
+        "nama_laptop": "Lenovo Yoga 7 2-in-1", "kategori": "Multimedia",
+        "cpu": "Intel Ultra 7 258V with NPU", "gpu": "Integrated Intel Arc Graphics 140V",
+        "ram": "32 GB LPDDR5x-8533", "storage": "1 TB SSD M.2 2242 PCIe 4.0x4",
+        "layar": "14 inch 2.8K OLED, 500nits 100% DCI-P3, Glossy, Dolby Vision, TUV Low Blue Light, Display HDR True Black 1000, Touchscreen 120Hz", "harga": 23090000   
+    }
+]
