@@ -144,17 +144,3 @@ http://localhost:5000/predict
 Place the `web` folder inside your local server directory (e.g., XAMPP or Laragon), then access it through your browser.
 
 ---
-
-## 🎓 Academic Context
-
-This project was developed as part of an undergraduate thesis in Computer Science, focusing on the implementation of NLP techniques for text-based recommendation systems.
-
----
-
-If you would like, I can also create:
-
-* A more **research-paper styled version** (for academic submission)
-* A more **technical portfolio-focused version**
-* Or a shorter, cleaner version optimized for GitHub recruiters**
-
-Just tell me which one you prefer 👍
