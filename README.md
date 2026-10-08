@@ -142,6 +142,7 @@ http://localhost:5000/predict
 ### 2️⃣ Run the PHP Web Application
 
 Place the `web` folder inside your local server directory (e.g., XAMPP or Laragon), then access it through your browser.
+models: https://drive.google.com/drive/folders/1uFlNu3vVHlVr7OWSRYov-Nr6M9aX7kSl?usp=drive_link
 
 ---
 🎓 Academic Context
