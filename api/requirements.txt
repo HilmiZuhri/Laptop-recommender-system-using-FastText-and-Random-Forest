@@ -1,0 +1,7 @@
+Flask
+gunicorn
+fasttext-wheel
+numpy
+joblib
+scikit-learn==1.6.1
+gdown

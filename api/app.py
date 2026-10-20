@@ -1,40 +1,78 @@
-from flask import Flask, request, jsonify
-import fasttext
-import pickle
+from pathlib import Path
 import re
-import numpy as np
+
+import fasttext
 import joblib
-import string
+import numpy as np
+from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-# ====== Load Model ======
-fasttext_model = fasttext.load_model("api/fasttext_model.bin")
-rf_classifier = joblib.load("api/random_forest_model.joblib")
+# ====== Direktori dan Model ======
+BASE_DIR = Path(__file__).resolve().parent
 
-# ====== Preprocessing sederhana ======
+FASTTEXT_PATH = BASE_DIR / "fasttext_model.bin"
+RF_PATH = BASE_DIR / "random_forest_model.joblib"
+
+if not FASTTEXT_PATH.exists():
+    raise FileNotFoundError(f"Model FastText tidak ditemukan: {FASTTEXT_PATH}")
+
+if not RF_PATH.exists():
+    raise FileNotFoundError(f"Model Random Forest tidak ditemukan: {RF_PATH}")
+
+fasttext_model = fasttext.load_model(str(FASTTEXT_PATH))
+rf_classifier = joblib.load(RF_PATH)
+
+
+# ====== Preprocessing ======
+# Pertahankan preprocessing yang digunakan saat eksperimen model.
 def preprocess_text(text):
     text = text.lower().strip()
-    text = re.sub(r'[^\w\s]', '', text)  # hapus simbol
+    text = re.sub(r"[^\w\s]", "", text)
     return text
 
-# ====== API Endpoint ======
+
+# ====== Health Check ======
+@app.route("/", methods=["GET"])
+def health_check():
+    return jsonify({
+        "status": "ok",
+        "message": "Laptop Recommendation API is running"
+    })
+
+
+# ====== API Prediction ======
 @app.route("/predict", methods=["POST"])
 def predict():
-    data = request.get_json()
-    if not data or "deskripsi" not in data:
-        return jsonify({"error": "Masukkan deskripsi laptop"}), 400
+    data = request.get_json(silent=True)
 
-    deskripsi = data["deskripsi"]
+    if not isinstance(data, dict):
+        return jsonify({"error": "Request harus berupa JSON"}), 400
+
+    deskripsi = data.get("deskripsi")
+
+    if not isinstance(deskripsi, str) or not deskripsi.strip():
+        return jsonify({
+            "error": "Masukkan deskripsi laptop yang valid"
+        }), 400
+
     clean_text = preprocess_text(deskripsi)
 
-    # Ekstraksi fitur dari FastText
-    vector = np.array(fasttext_model.get_sentence_vector(clean_text)).reshape(1, -1)
+    vector = np.asarray(
+        fasttext_model.get_sentence_vector(clean_text),
+        dtype=np.float32
+    ).reshape(1, -1)
 
-    # Prediksi dengan Random Forest
     prediksi = rf_classifier.predict(vector)[0]
 
-    return jsonify({"kategori": prediksi})
+    return jsonify({
+        "kategori": str(prediksi)
+    })
+
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(
+        host="0.0.0.0",
+        port=5000,
+        debug=False
+    )

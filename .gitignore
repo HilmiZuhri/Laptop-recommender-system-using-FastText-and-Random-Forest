@@ -1,1 +1,3 @@
 api/fasttext_model.bin
+api/random_forest_model.joblib
+api/random_forest_model.pkl
