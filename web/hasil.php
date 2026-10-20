@@ -49,7 +49,7 @@ if (empty($kategori)) {
     } elseif (preg_match('/(code|coding|programmer|programming|docker|flutter|vscode|developer|kompilasi|react|python)/i', $d_lower)) {
         $kategori = "Programming";
     } elseif (preg_match('/(photoshop|illustrator|desain|design|premiere|video|render|srgb|color grading|creator|oled)/i', $d_lower)) {
-        $kategori = "Desain Grafis";
+        $kategori = "Multimedia";
     } else {
         $kategori = "Office";
     }
