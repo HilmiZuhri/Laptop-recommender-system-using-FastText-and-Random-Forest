@@ -6,8 +6,7 @@ import gdown
 BASE_DIR = Path(__file__).resolve().parent
 
 MODELS = {
-    "fasttext_model.bin": os.environ.get("FASTTEXT_FILE_ID"),
-    "random_forest_model.joblib": os.environ.get("RF_FILE_ID"),
+    "fasttext_model.bin": os.environ.get("FASTTEXT_FILE_ID")
 }
 
 for filename, file_id in MODELS.items():
